@@ -47,6 +47,7 @@ local function cmd_ne(ctx)
         else
             table.insert(out, insertUnicode(ctx.words[i]))
         end
+   end
     local msg = table.concat(out, " ")
 
     -- Send the transformed message to the same channel
